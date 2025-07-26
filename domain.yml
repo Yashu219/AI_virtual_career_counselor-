@@ -1,0 +1,40 @@
+version: "3.1"
+
+intents:
+  - greet
+  - provide_education
+  - provide_interest
+  - goodbye
+  - provide_edu_and_interest
+
+entities:
+  - education
+  - interest
+
+slots:
+  education:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: education
+
+  interest:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: interest
+
+responses:
+  utter_greet:
+    - text: "Hi! I'm your Career Counsellor Bot 🤖. What is your current education level? (10th, 11th, PUC, UG, PG)"
+
+  utter_ask_interest:
+    - text: "Nice! What are your favorite subjects or interests?"
+
+  utter_goodbye:
+    - text: "All the best! Let me know if you need help again 👋"
+
+actions:
+  - action_career_suggestion
