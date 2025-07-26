@@ -17,8 +17,10 @@ An intelligent career guidance chatbot that suggests career paths based on a use
 
 ## 💡 Sample Conversation
 
-🧑‍💻 You: hi
+🧑‍💻 You: hi 
+
 🤖 Bot: Hi! I'm your Career Counsellor Bot 🤖. What is your current education level? (10th, 11th, PUC, UG, PG)
+
 🧑‍💻 You: 10th
 🤖 Bot: Nice! What are your favorite subjects or interests?
 🧑‍💻 You: science
