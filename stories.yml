@@ -1,0 +1,24 @@
+
+version: "3.1"
+
+stories:
+
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: user provides education
+  steps:
+  - intent: provide_education
+  - action: utter_ask_interest
+
+- story: user provides interest
+  steps:
+  - intent: provide_interest
+  - action: action_career_suggestion
+
+- story: end chat
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

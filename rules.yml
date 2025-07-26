@@ -1,0 +1,31 @@
+version: "3.1"
+
+rules:
+- rule: greet and ask education
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: user provides education
+  steps:
+  - intent: provide_education
+  - action: utter_ask_interest
+
+- rule: user provides interest
+  steps:
+  - intent: provide_interest
+  - action: action_career_suggestion
+
+- rule: user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: trigger suggestion when both slots are set
+  condition:
+    - slot_was_set:
+        - education
+    - slot_was_set:
+        - interest
+  steps:
+    - action: action_career_suggestion

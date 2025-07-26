@@ -1,0 +1,73 @@
+version: "3.1"
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+
+- intent: provide_education
+  examples: |
+    - I completed [10th](education)
+    - I passed [11th](education)
+    - I'm studying [PUC](education)
+    - [UG](education)
+    - I finished [UG](education)
+    - [PG](education)
+    - I did [PG](education)
+    - I am a [BTech](education) student
+
+- intent: provide_interest
+  examples: |
+    - I am interested in [science](interest)
+    - [science](interest)
+    - I love [coding](interest)
+    - [coding](interest)
+    - My interest is in [electronics](interest)
+    - [mechanical engineering](interest)
+    - [biology](interest)
+    - I prefer [computer science](interest)
+    - I want to go into [electronics](interest)
+    - I completed PCMB and like [biology](interest)
+    - I'm done with exam in PCMB and I enjoy [maths](interest)
+    - I took PCMB, and [chemistry](interest) is my favorite
+    - I want to pursue [computer science](interest)
+    - I studied [science](interest) in 11th and 12th
+    - My favorite subject is [physics](interest)
+    - I'm passionate about [coding](interest)
+    - [AI](interest) and [robotics](interest) excite me
+    - I like [civil engineering](interest)
+    - My goal is to study [mechanical engineering](interest)
+    - I'm aiming for [electronics and communication](interest)
+    - [maths](interest) is my strength
+    - I'm planning to take [commerce](interest)
+    - I took [pcmb](interest)
+    - I completed [pcmb](interest)
+    - [pcmb](interest)
+    - I studied [pcmb](interest)
+    - My stream is [pcmb](interest)
+    - I had [biology](interest) in PUC
+    - I had [maths](interest) and [physics](interest)
+    - [pcmc](interest)
+    - I had [computer science](interest)
+    - I completed my exam in PCMB and I like [physics](interest)
+    - I enjoy learning about [machines](interest)
+    - I like [designing circuits](interest)
+
+- intent: provide_edu_and_interest
+  examples: |
+    - I completed my PUC in PCMC
+    - I did my 10th and I like biology
+    - I finished UG in ECE and love coding
+    - My education is PG and I'm interested in data science
+
+
+
