@@ -22,12 +22,19 @@ An intelligent career guidance chatbot that suggests career paths based on a use
 🤖 Bot: Hi! I'm your Career Counsellor Bot 🤖. What is your current education level? (10th, 11th, PUC, UG, PG)
 
 🧑‍💻 You: 10th
+
 🤖 Bot: Nice! What are your favorite subjects or interests?
+
 🧑‍💻 You: science
+
 🤖 Bot: 🤔 Based on your input, here are some suggestions:
+
 🤖 Bot: 🔬 You're at the school level and interested in science. You can choose **PCMB or PCMC** in PUC. Later, explore **MBBS, Engineering, B.Sc (Physics/Chemistry/Biology)**, or even **Research & Teaching** roles.
+
 🧑‍💻 You: i like coding
+
 🤖 Bot: 🤔 Based on your input, here are some suggestions:
+
 🤖 Bot: 💻 You seem interested in tech! Opt for **PCMC in PUC**, then pursue **BCA, BSc CS, or BE in CSE/AI**. You’ll have great scope in software and AI careers
 
 
